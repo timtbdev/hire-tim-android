@@ -46,6 +46,16 @@ android {
 
 dependencies {
 
+    // Custom Activity On Crash
+    implementation(libs.custom.activity.crash)
+
+    // Coil Image Loader
+    implementation(libs.coil.compose)
+
+    // OkHttp Library
+    implementation(libs.okhttp)
+    implementation(libs.okhttp.logging.interceptor)
+
     // Splash Screen
     implementation(libs.androidx.splash.screen)
 
